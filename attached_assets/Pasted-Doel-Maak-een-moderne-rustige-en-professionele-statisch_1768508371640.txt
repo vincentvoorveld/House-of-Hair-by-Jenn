@@ -1,0 +1,135 @@
+Doel: Maak een moderne, rustige en professionele statische website (HTML + CSS, optioneel klein beetje JS) voor een kapperszaak aan huis.
+De site moet direct geschikt zijn om te hosten via GitHub Pages (dus geen backend, geen frameworks nodig).
+
+Algemene eisen
+
+Gebruik pure HTML5 + CSS3 (optioneel minimale vanilla JS)
+
+Mobile-first & volledig responsive
+
+Rustige, elegante uitstraling (beige / nude / soft brown tinten)
+
+Veel witruimte, vrouwelijke maar professionele stijl
+
+Alles in één repository, klaar voor GitHub Pages
+
+Bestandenstructuur:
+
+/
+├─ index.html
+├─ css/style.css
+├─ assets/
+│  ├─ images/
+│  └─ icons/
+
+Branding & stijl
+
+Bedrijfsnaam: House of Hair by Jenn
+
+Slogan/omschrijving:
+
+Kapsalon aan huis in Amersfoort
+Gespecialiseerd in knippen, kleuren & krullen – Curly Girl Methode
+
+Doelgroep: dames, heren & kinderen
+
+Stijl: warm, persoonlijk, rustig, high-end maar toegankelijk
+
+Lettertypes:
+
+Serif of elegant font voor headings
+
+Goed leesbaar sans-serif voor bodytekst
+
+Inhoud van de website
+1. Hero / Header
+
+Grote titel: House of Hair by Jenn
+
+Subtitel:
+
+Kapsalon aan huis in Amersfoort
+Gespecialiseerd in knippen, kleuren & krullen
+
+Call-to-action knop:
+
+“Maak een afspraak” → tel:+31636320606
+
+Zachte achtergrondkleur (geen drukke foto nodig)
+
+2. Over de salon
+
+Tekst:
+
+Bij House of Hair by Jenn staat persoonlijke aandacht centraal.
+Ik werk uitsluitend op afspraak en neem de tijd voor dames, heren en kids.
+Gespecialiseerd in knippen, kleuren en krullen volgens de Curly Girl Methode.
+
+3. Specialisaties
+
+Gebruik 3 kaarten/blokken:
+
+✂️ Knippen (dames, heren & kids)
+
+🎨 Kleuren & highlights
+
+🔄 Krullen – Curly Girl Methode
+
+4. Praktische informatie
+
+Overzichtelijk blok met iconen:
+
+📍 Adres: Beukstraat 7, Amersfoort, Netherlands
+
+📞 Telefoon: 06 36320606
+
+⏰ Op afspraak: ja (geen inloop)
+
+🏠 Kapsalon aan huis
+
+Telefoonnummer klikbaar (tel:).
+
+5. Social media
+
+Instagram link:
+
+instagram.com/houseofhairbyjenn
+
+Gebruik Instagram-icoon
+
+Link opent in nieuw tabblad
+
+6. Footer
+
+© House of Hair by Jenn
+
+Amersfoort
+
+Telefoonnummer
+
+Instagram link
+
+Technische wensen
+
+SEO-vriendelijke HTML:
+
+<title>: House of Hair by Jenn – Kapsalon aan huis in Amersfoort
+
+Meta description
+
+Gebruik semantische HTML (header, section, footer)
+
+CSS netjes gescheiden
+
+Geen externe afhankelijkheden nodig (optioneel Google Fonts oké)
+
+Extra (optioneel maar gewenst)
+
+Sticky header op desktop
+
+Subtiele hover-effecten op knoppen
+
+Zachte fade-in animaties bij scroll (pure CSS of lichte JS)
+
+Resultaat:
+Een nette, professionele one-page statische website die ik direct kan pushen naar GitHub en publiceren via GitHub Pages zonder verdere aanpassingen.
