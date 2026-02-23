@@ -135,6 +135,14 @@
         </section>
     </main>
 
+    <div class="promo-overlay" id="promoBanner">
+        <div class="promo-banner">
+            <button class="promo-close" id="promoClose" aria-label="Sluiten">&times;</button>
+            <p class="promo-text">Interesse in een soortgelijke website?</p>
+            <a href="https://www.frontfield.nl" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Neem contact op via frontfield.nl</a>
+        </div>
+    </div>
+
     <footer class="footer">
         <div class="container footer-container">
             <div class="footer-brand">
@@ -186,6 +194,24 @@
         document.querySelectorAll('.card, .about-content, .about-image, .contact-item').forEach(el => {
             el.classList.add('fade-in');
             observer.observe(el);
+        });
+
+        // Promo banner after 10 seconds
+        const promoBanner = document.getElementById('promoBanner');
+        const promoClose = document.getElementById('promoClose');
+
+        setTimeout(() => {
+            promoBanner.classList.add('promo-visible');
+        }, 10000);
+
+        promoClose.addEventListener('click', () => {
+            promoBanner.classList.remove('promo-visible');
+        });
+
+        promoBanner.addEventListener('click', (e) => {
+            if (e.target === promoBanner) {
+                promoBanner.classList.remove('promo-visible');
+            }
         });
     </script>
 </body>
